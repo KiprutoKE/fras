@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="icon.png" />
+        <title>Your Age In Days Since Birth</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="test.css">
+    </head>
+    <body>
+    <div  class ="container">
+
+       <div class="calculator">
+              <h1>Know Your <br> <span>Age In Days</span> </h1>
+              <div class="input-box">
+
+                <input type="date"  id="date" name="date">
+                <button onclick="calculate ">Calculate</button>
+              </div>
+
+       </div>
+
+    </div>
+
+ 
+     
+        <script src="JavaScript" async defer>
+        
+        let userInput = document.getElementById('date');
+        userInput.max = new Date() .toISOString().split("T")[0]; 
+        
+        
+        
+        
+        
+        
+        
+        </script>
+    </body>
+</html>
